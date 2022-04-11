@@ -33,7 +33,7 @@ class Student(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     age = models.IntegerField()
-    art_style = models.ForeignKey(ArtStyle, on_delete=models.CASCADE, related_name='art_style')
+    art_style = models.ForeignKey(ArtStyle, on_delete=models.CASCADE, related_name='artstyle')
     contact_number = models.BigIntegerField(unique=True)
     email = models.EmailField(unique=True)
     rank = models.IntegerField()
