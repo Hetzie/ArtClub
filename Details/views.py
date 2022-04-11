@@ -16,3 +16,4 @@ class MentorView(generics.ListCreateAPIView):
 class ArtStyleView(generics.ListCreateAPIView):
     queryset = ArtStyle.objects.all()
     serializer_class = ArtStyleSerializer
+    

@@ -15,3 +15,4 @@ class ArtStyleSerializer(serializers.ModelSerializer):
     class Meta:
         model = ArtStyle
         fields = '__all__'
+        
