@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'Details',
     'rest_framework',
+    'Exhibition',
 ]
 
 MIDDLEWARE = [
