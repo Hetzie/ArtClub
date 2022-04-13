@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'Details',
     'rest_framework',
     'Exhibition',
+    'Competition'
 ]
 
 MIDDLEWARE = [
